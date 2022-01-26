@@ -1,0 +1,28 @@
+#post-container {
+    background-color: #11468F;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+#post-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+#post-img-container {
+    border: 2px solid #041562;
+}
+#post-body {
+    text-align: center;
+    font-size: 1.05em;
+}
+#btn-flex-container {  
+    display:flex;
+    justify-content: space-between;
+}
+#user {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}

@@ -1,0 +1,22 @@
+#form-main-container {
+    background-color: #11468F;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+    border-radius: 5px;
+    max-width: 100%;
+}
+h2 {
+    text-align: center;
+}
+#upload-file-container > input {
+    max-width: 100px;
+}
+#btn-spinner-holder {
+    display: flex;
+    justify-content: space-between;
+} 
+@media only screen and (min-width: 770px) {
+    #form-main-container {
+      align-self: start;
+    }
+  }

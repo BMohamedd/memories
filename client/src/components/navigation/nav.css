@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Lobster&display=swap');
+#main-container {
+font-family: 'Corinthia', cursive;
+font-family: 'Lobster', cursive;
+background-color: #11468F;
+display: flex;
+justify-content: center;
+border-bottom: 1px solid #DA1212;
+position: fixed;
+width: 100%;
+top: 0;
+left:0;
+}

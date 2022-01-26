@@ -1,0 +1,23 @@
+#main {
+    background-color: #041562;
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 2.5em;
+    padding-bottom: 1em;
+}
+#grid-container {
+    margin-top: 2em;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr;
+}
+@media only screen and (max-width: 770px) {
+    #grid-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #grid-container > FormComponent {
+        justify-self: center;
+        align-self: center;
+    }
+}

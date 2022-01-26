@@ -1,0 +1,11 @@
+#posts-grid-container {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+@media only screen and (max-width: 350px) {
+    #posts-grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+  }
